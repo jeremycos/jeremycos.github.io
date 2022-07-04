@@ -6,6 +6,10 @@
         {
             "mode": "command",
             "command" : "echo 'Bonjour je teste'"
+        },
+        {
+            "mode":"command",
+            "command":"npm install react-native-maps"
         }
     ]
 }
