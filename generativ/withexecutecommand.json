@@ -34,7 +34,6 @@
         {
             "mode": "command",
             "command" : "echo 'Bonjour je teste'"
-        },
-       
+        }  
     ]
 }
