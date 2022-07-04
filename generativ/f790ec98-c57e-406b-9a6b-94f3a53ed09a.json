@@ -28,7 +28,7 @@
             ]
         },
         {
-            "mode": "file",
+            "mode": "update_file",
             "file": "floating-input/floating-input.tsx",
             "actions": [
                 {
