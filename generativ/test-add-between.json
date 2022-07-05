@@ -5,7 +5,7 @@
     "instructions": [
          {
             "mode": "update_file",
-            "file": "babel.config.js",
+            "file": "./babel.config.js",
             "actions": [
                 {
                     "type": "add_between",
