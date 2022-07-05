@@ -9,7 +9,7 @@
             "actions": [
                 {
                     "type": "add_between",
-                    "reference":"presets: \\[$code.+\\]",
+                    "reference":"presets: \\[.+$code\\]",
                     "code": "'react-native-maps',",
                     "isUnique": true
                 }
