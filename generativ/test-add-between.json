@@ -5,7 +5,7 @@
     "instructions": [
          {
             "mode": "update_file",
-            "file": "./babel.config.js",
+            "file": "node_modules/react-native-floating-label-input/babel.config.js",
             "actions": [
                 {
                     "type": "add_between",
