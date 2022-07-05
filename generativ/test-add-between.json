@@ -10,7 +10,7 @@
                 {
                     "type": "add_between",
                     "reference":"presets: \\[$code.+\\]",
-                    "code": "'react-native-maps'",
+                    "code": "'react-native-maps',",
                     "isUnique": true
                 }
                 
