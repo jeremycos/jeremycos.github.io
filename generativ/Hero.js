@@ -17,7 +17,7 @@
         </sup>
       </span>
     </h1>
-    <p className="mx-auto text-lg font-normal leading-tight text-gray-700 sm:text-lg mt-8 md:mt-8 md:text-xl max-w-md md:max-w-4xl hover:text-red-500">
+    <p className="mx-auto text-lg font-normal leading-tight text-gray-700 sm:text-lg mt-8 md:mt-8 md:text-xl max-w-md md:max-w-4xl">
       $subtitle
     </p>
     <div className="mt-10 inline-block md:max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
