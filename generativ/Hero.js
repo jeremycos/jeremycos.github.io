@@ -24,7 +24,7 @@
       <div className="rounded-md shadow">
         <a
           href="$buttonLink"
-          className=" bg-gradient-to-r from-green-400 to-blue-500 hover:from-gray-900 hover:to-gray-900  flex items-center justify-center px-8 py-3 font-normal tracking-wide rounded-md text-white  md:py-3 text-lg md:px-16"
+          className=" bg-gradient-to-r from-green-200 to-blue-700 hover:from-gray-900 hover:to-gray-900  flex items-center justify-center px-8 py-3 font-normal tracking-wide rounded-md text-white  md:py-3 text-lg md:px-16"
         >
           $buttonText
         </a>
