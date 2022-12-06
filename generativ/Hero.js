@@ -2,7 +2,7 @@
   <div className="max-w-5xl relative mx-auto">
     <h1 className="text-4xl  font-extrabold text-gray-900 sm:text-4xl md:text-6xl">
       <span className="block xl:inline leading-tight">
-        $title
+        $[Title]
         <sup className="absolute top-0 right-0 -mt-3 md:-mt-12 mr-3 md:mr-0 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,15 +18,15 @@
       </span>
     </h1>
     <p className="mx-auto text-lg font-normal leading-tight text-gray-700 sm:text-lg mt-8 md:mt-8 md:text-xl max-w-md md:max-w-4xl">
-      $subtitle
+      $[Subtitle]
     </p>
     <div className="mt-10 inline-block md:max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
       <div className="rounded-md shadow">
         <a
-          href="$buttonLink"
+          href="$[Button Link]"
           className=" bg-gradient-to-r from-green-200 to-blue-700  flex items-center justify-center px-8 py-3 font-normal tracking-wide rounded-md text-white  md:py-3 text-lg md:px-16"
         >
-          $buttonText
+          $[Button Text]
         </a>
       </div>
     </div>
