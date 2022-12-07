@@ -1,0 +1,79 @@
+<nav className="bg-white shadow-lg" x-data="{open:false}">
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex items-center justify-between h-16 md:h-20">
+      <div className="w-full flex items-center justify-between">
+        <div className="flex-shrink-0">
+          <img className="block  h-8 w-auto" src="$[Logo]" alt="$[Page Name]" />
+        </div>
+        <div className="hidden sm:block sm:ml-6">
+          <div className="flex space-x-4">
+            $[Liste Url][start]
+            <a
+              href="$[Liste Url].[Href]"
+              className="text-gray-800 hover:bg-gray-100 hover:text-blue-500 px-3 py-2 rounded-md text-base font-normal"
+            >
+              $[Liste Url].[Value]
+            </a>
+            $[Liste Url][end]
+          </div>
+        </div>
+      </div>
+
+      <div className="-mr-2 flex sm:hidden">
+        <button
+          x-on:click="open = ! open"
+          className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-blue-500  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+          x-on:click="open = ! open"
+        >
+          <span className="sr-only">Open main menu</span>
+
+          <svg
+            x-show="open"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+
+          <svg
+            x-show="!open"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div x-show="open" className="sm:hidden">
+    <div className="px-2 pt-2 pb-3 space-y-1">
+      $[Liste Url][start]
+      <button
+        href="$[Liste Url].[Href]"
+        className="w-full text-gray-80 hover:bg-gray-100 hover:text-blue-500 block px-3 py-2 rounded-md text-base font-normal"
+      >
+        $[Liste Url].[Value]
+      </button>
+      $[Liste Url][end]
+    </div>
+  </div>
+</nav>
