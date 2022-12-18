@@ -21,10 +21,11 @@
       <div className="flex items-center justify-center mx-auto ">
         <figure className="mr-3 h-8 w-8 md:w-10 md:h-10 relative ">
           <picture>
-            <img
+            <Image
               src="$[Author Image]"
               alt="$[Author Name]"
-              loading="lazy"
+              object-fit="cover"
+              fill="layout"
               className="rounded-full  "
             />
           </picture>
@@ -36,11 +37,13 @@
       </div>
       <figure className="principal pt-12 max-w-xl mx-auto relative">
         <picture>
-          <img
-            src="$[Image Article]"
-            alt="$[Title]"
-            className="rounded-md"
-          />
+           <Image
+             src="$[Image Article]"
+             alt="$[Title]"
+             object-fit="cover"
+             fill="layout"
+             className="rounded-md "
+            />
         </picture>
       </figure>
     </div>
